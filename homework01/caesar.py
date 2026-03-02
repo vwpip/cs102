@@ -59,7 +59,7 @@ def decrypt_caesar(ciphertext):
                 new_pos = (pos - shift) % 26
                 new_char = chr(base_low + new_pos)
 
-            plaintext += char
+            plaintext += new_char
         else:
             plaintext += char
 
